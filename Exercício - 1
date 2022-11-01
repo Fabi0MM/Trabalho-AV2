@@ -1,0 +1,9 @@
+x = float(input('Digite o valor da base maior:'))
+y = float(input('Digite o valor da base menor:'))
+h = float(input('Digite a altura:'))
+a = 2
+
+
+area = (x + y) * (h) / a
+
+print('A area do trapézio é: {}'.format(area))
